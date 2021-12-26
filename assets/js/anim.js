@@ -43,7 +43,7 @@ gsap.from("#acessorios div",{
     stagger: {each: 0.2},
     ease: "power3.out",
     scrollTrigger: {
-        trigger: ".content-item",
+        trigger: ".card-gift",
     }
 });
 
