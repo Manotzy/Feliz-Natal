@@ -37,24 +37,24 @@ tl
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from("#acessorios div",{
-    duration: 2,
+    duration: 1,
     y: 300,
     opacity: 0,
     stagger: {each: 0.2},
     ease: "power3.out",
     scrollTrigger: {
-        trigger: "#acessorios",
+        trigger: ".content-item",
     }
 });
 
 gsap.from("#doacao div",{
-    duration: 2,
+    duration: 1,
     y: 300,
     opacity: 0,
     stagger: {each: 0.2},
     ease: "power3.out",
     scrollTrigger: {
-        trigger: "#doacao",    
+        trigger: ".foot-img",    
     }
 })
 
