@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 52px;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: $black-normal;
+    cursor: pointer;
+}
+
+li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
