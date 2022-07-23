@@ -160,7 +160,7 @@ li {
 
 .hero-item > p {
   color: #404040;
-  padding: 24px 0 40px 0;
+  height: 100vh;
 }
 
 .hero-img {
